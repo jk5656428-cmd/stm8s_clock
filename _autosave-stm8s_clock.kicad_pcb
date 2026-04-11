@@ -35500,7 +35500,7 @@
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "B.SilkS")
 			(uuid "7a326de8-074b-4f23-9d83-1df2b40e0090")
 			(effects
@@ -35512,7 +35512,7 @@
 			)
 		)
 		(property "Value" "STM8S003F3P"
-			(at 0 -4.2 360)
+			(at 0 -4.2 0)
 			(layer "B.Fab")
 			(uuid "76b510b9-49a6-446e-b68e-1a22d703bbf5")
 			(effects
@@ -35524,7 +35524,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4f1955df-6e5e-4bf2-8433-bbc6e9cc6694")
@@ -35537,7 +35537,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9b288deb-995f-45ff-b588-d7b1689a2091")
@@ -35550,7 +35550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d05c91a9-b6dd-4bf0-93e4-1d8dbb08c7ec")
@@ -35710,7 +35710,7 @@
 			(uuid "e87dc077-73df-4bb2-8b76-ae0bf5da4c53")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.2375 1.025 360)
+			(at 0.2375 1.025 0)
 			(layer "B.Fab")
 			(uuid "1d85d031-29c4-4ff3-b784-f076bece7bbc")
 			(effects
@@ -42557,28 +42557,28 @@
 		(uuid "fdac6dd7-c112-4e55-a595-35e9b4e1830a")
 	)
 	(segment
-		(start 103.02 91.1)
-		(end 103.4 91.48)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 104)
-		(uuid "026ee8ea-45bd-4d1c-a12e-6be52b0a2fb8")
-	)
-	(segment
-		(start 103.02 84.53)
-		(end 103.02 91.1)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 104)
-		(uuid "27f00913-53e7-4556-ab03-ecf5e7f705ae")
-	)
-	(segment
 		(start 95 124.89)
 		(end 85.42 124.89)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 104)
 		(uuid "3f8baf0c-7e2a-4865-bf6a-387f5a041289")
+	)
+	(segment
+		(start 103.86 85.37)
+		(end 103.02 84.53)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 104)
+		(uuid "b56db5f6-7400-4af6-a1c7-5c76fbc4b2a4")
+	)
+	(segment
+		(start 103.86 93.05)
+		(end 103.86 85.37)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 104)
+		(uuid "ba43f99b-ef21-42db-8848-f4a4e2bbcece")
 	)
 	(segment
 		(start 102.48 117.41)
@@ -42589,7 +42589,7 @@
 		(uuid "d42be688-0556-4b59-abb5-445853ad1966")
 	)
 	(via
-		(at 103.4 91.48)
+		(at 103.86 93.05)
 		(size 1.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -42621,14 +42621,6 @@
 		(uuid "e7f68cee-1bca-4682-a898-eedbcfd3cfb5")
 	)
 	(segment
-		(start 103.4 116.49)
-		(end 102.48 117.41)
-		(width 0.6)
-		(layer "B.Cu")
-		(net 104)
-		(uuid "0a5fe527-7a4d-4736-9d78-295f48b7e971")
-	)
-	(segment
 		(start 79.48 120.6)
 		(end 79.48 117.815)
 		(width 0.6)
@@ -42643,14 +42635,6 @@
 		(layer "B.Cu")
 		(net 104)
 		(uuid "2b350fdc-da6f-4c14-8bbe-8e053aa80cb4")
-	)
-	(segment
-		(start 103.4 91.48)
-		(end 103.4 116.49)
-		(width 0.6)
-		(layer "B.Cu")
-		(net 104)
-		(uuid "743ec783-639f-47c9-9f86-63699b8eb7fb")
 	)
 	(segment
 		(start 102.77 82.635)
@@ -42683,6 +42667,30 @@
 		(layer "B.Cu")
 		(net 104)
 		(uuid "afebc9a5-88ac-4b3f-abbf-da635fd23050")
+	)
+	(segment
+		(start 103.97 115.92)
+		(end 102.48 117.41)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 104)
+		(uuid "bf7063c4-0322-41b3-96a9-5a4ff1e29dd1")
+	)
+	(segment
+		(start 103.86 93.05)
+		(end 103.97 93.16)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 104)
+		(uuid "efd9dbe3-93da-4083-ab00-83b61cd73e50")
+	)
+	(segment
+		(start 103.97 93.16)
+		(end 103.97 115.92)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 104)
+		(uuid "f240280e-dbe1-412e-908a-0cb4050d408a")
 	)
 	(segment
 		(start 105.75 82.635)
